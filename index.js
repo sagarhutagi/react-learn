@@ -11,7 +11,8 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-const port = 8020;
+// const port = 8020;
+const port = 3400;
 
 app.listen(port, () => {
   console.log("The Website is running on http://localhost:8080");
